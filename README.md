@@ -77,16 +77,62 @@ selpg -s startPage -e endPage [-l linePerPage | -f ][-d dest] filename
 
 
 ## 3.测试结果
-**1.selpg -s1 -e1 input_file**
-**2.selpg -s1 -e1 < input_file**
-**3.other_command | selpg -s10 -e20**
-**4.selpg -s10 -e20 input_file >output_file**
-**5.selpg -s10 -e20 input_file 2>error_file**
-**6.selpg -s10 -e20 input_file >output_file 2>error_file**
-**7.selpg -s10 -e20 input_file >output_file 2>/dev/null**
-**8.selpg -s10 -e20 input_file >/dev/null**
-**9.selpg -s10 -e20 input_file | other_command**
-**10.selpg -s10 -e20 input_file 2>error_file | other_command**
-**11.selpg -s10 -e20 -l66 input_file**
-**12.selpg -s10 -e20 -f input_file**
-**13.selpg -s10 -e20 -dlp1 input_file**
+
+>**1.selpg -s1 -e1 input_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/1539136419(1).png)
+
+>**2.selpg -s1 -e1 < input_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/1539136508(1).png)
+
+>**3.other_command | selpg -s10 -e20**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/1539136618(1).png)
+
+>**4.selpg -s10 -e20 input_file >output_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/4/797c6e189a816a69d96a13177fe9196.png)
+![image](https://github.com/9ayhub/selpg1/blob/master/test/4/62979cf91c17ae68f21a0cd39d5e98c.png)
+
+>**5.selpg -s10 -e20 input_file 2>error_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/5/1539136972(1).png)
+
+>**6.selpg -s10 -e20 input_file >output_file 2>error_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/6/1539166621(1).png)
+
+>**7.selpg -s10 -e20 input_file >output_file 2>/dev/null**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/7/1539166746(1).png)
+![image](https://github.com/9ayhub/selpg1/blob/master/test/7/1539166790(1).png)
+
+>**8.selpg -s10 -e20 input_file >/dev/null**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/8/1539166836(1).png)
+
+>**9.selpg -s10 -e20 input_file | other_command**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/9/1539166930(1).png)
+
+>**10.selpg -s10 -e20 input_file 2>error_file | other_command**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/10.png)
+
+>**11.selpg -s10 -e20 -l66 input_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/11.png)
+
+>**12.selpg -s10 -e20 -f input_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/12.png)
+
+>**13.selpg -s10 -e20 -dlp1 input_file**
+
+![image](https://github.com/9ayhub/selpg1/blob/master/test/13.png)
+
+
+
+
+
